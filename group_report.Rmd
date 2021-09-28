@@ -183,7 +183,7 @@ legend(1, 95, col = c('red', 'green', 'blue'),
 
 For this question, we start by using results from the last simulation in Q(5). Also since the question refers to where the robot _is_, we concern ourselves with the filtered distribution alone.
 
-We see no evidence of decrease in the (conditional) entropy of hidden states ($Z^t | X^{0:T}$) as we collect more data (over time) -- see graph below. (NB: each Multinoulli distribution $Z^t | X^{0:T}$ was estimated as the 'Filtered' distibution)
+We see no evidence of decrease in the (conditional) entropy of hidden states ($Z^t | X^{0:T}$) as we collect more data (over time) -- see graph below. (NB: each Multinoulli distribution $Z^t | X^{0:T}$ was estimated as the 'Filtered' distribution)
 
 Since the assertion has already been disproved with one simulation, we don't perform more simulations.
 
